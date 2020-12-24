@@ -129,7 +129,7 @@ export default function Simulation() {
             <td>Time</td> <td>{time.toPrecision(PRECISION)} s</td>
           </tr>
           <tr>
-            <td>X</td> <td>{pos.x.toPrecision(PRECISION)} m</td>
+            <td>X</td> <td>{(pos.x || 0).toPrecision(PRECISION)} m</td>
           </tr>
           <tr>
             <td>Y</td> <td>{pos.y.toPrecision(PRECISION)} m</td>
