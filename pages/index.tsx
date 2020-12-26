@@ -79,7 +79,7 @@ export default function Simulation() {
         title="Angle"
         value={theta}
         setValue={setTheta}
-        suffix="θ"
+        suffix="°"
       />
       <button
         id="run"
