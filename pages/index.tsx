@@ -192,6 +192,7 @@ async function runSimulation(
   setPos({ x: xf, y: 0 });
 }
 
+// https://www.caktusgroup.com/blog/2020/07/01/usekeypress-hook-react/
 export function useKeypress(key, action) {
   useEffect(() => {
     function onKeyup(e) {
@@ -202,6 +203,7 @@ export function useKeypress(key, action) {
   }, []);
 }
 
+// https://stackoverflow.com/a/39914235
 const sleep = (ms) => new Promise((res) => setTimeout(res, ms));
 
 function mToPx(m: number, y = false): number {
